@@ -547,7 +547,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`Nightclub - ?help`,"http://twitch.tv/SasukeGames03")
+  client.user.setGame(`Nightclub - -help`,"http://twitch.tv/SasukeGames03")
    client.user.setStatus("dnd")
 });
 
