@@ -547,7 +547,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`in 54 server -help`,"http://twitch.tv/y04zgamer")
+  client.user.setGame(`Nightclub - ?help`,"http://twitch.tv/SasukeGames03")
    client.user.setStatus("dnd")
 });
 
@@ -662,7 +662,7 @@ member.send( `${member} ! ` + "**" + message.guild.name + " : ** " + message.con
 });
 });
 Client.on("message", message => {
-    var prefix = "-";
+    var prefix = "/";
  
             var args = message.content.substring(prefix.length).split(" ");
             if (message.content.startsWith(prefix - "bc")) {
