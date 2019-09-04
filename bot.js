@@ -392,7 +392,7 @@ client.on('message', message => {
 
 
 
-   var prefix = "-";
+   prefix = ",";
 var cats = [
 
 "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
@@ -547,7 +547,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`Nightclub - -help`,"http://twitch.tv/SasukeGames03")
+  client.user.setGame(`Bot In Dev. , copyright © 2020`,"http://twitch.tv/SasukeGames03")
    client.user.setStatus("dnd")
 });
 
