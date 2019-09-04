@@ -227,8 +227,8 @@ client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')
-      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=350470102803546115`)
+      .setFooter('© Dev Bot Bot:heart: جميع الحقوق محفوظة copyright © 2019')
+      .addField('شكرا لك لاستخدامك ل Dev Bot بوت', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=350470102803546115`)
   message.author.send({embed});
 
  }
@@ -271,8 +271,8 @@ client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')  
-      .addField('سيرفر الدعم الفني', `  https://discord.gg/dFCBGX6  `)
+      .setFooter('© Dev Bot Bot:heart: جميع الحقوق محفوظة copyright © 2019')  
+      .addField('سيرفر الدعم الفني', `  https://discord.gg/eg8aymD  `)
   message.author.send({embed});
 
  }
@@ -351,7 +351,7 @@ client.on('message', message => {
       const embed = new Discord.RichEmbed()
  
   .setColor("#FF0000")
-  .addField('``سرعة أتصال الــبوت`` ' , `${Date.now() - message.createdTimestamp}` + ' ms`')
+  .addField('``Your Ping is | سرعة الييتغ`` ' , `${Date.now() - message.createdTimestamp}` + ' ms`')
                  .setFooter(` Premium Bot
  .`, 'https://b.top4top.net/p_6021qh431.jpg')
 
@@ -392,7 +392,7 @@ client.on('message', message => {
 
 
 
-   prefix = ",";
+   prefix = ";";
 var cats = [
 
 "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
